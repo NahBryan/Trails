@@ -57,6 +57,7 @@ playwright-report/
 *.zip
 *.tar
 *.gz
+*.properties
 
 
 *.local.json
@@ -65,3 +66,5 @@ sql
 node_modules
 github
 uploads/*
+.scannerwork/
+sonar-project.properties

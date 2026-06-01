@@ -9,4 +9,10 @@ router.get(
   controller.download
 );
 
+router.get(
+  "/",
+  auth,
+  controller.getDocuments
+);
+
 module.exports = router;
