@@ -7,8 +7,8 @@ describe("Auth", () => {
     const response = await request(app)
       .post("/api/auth/login")
       .send({
-        email: "admin@test.com",
-        password: "password"
+        input: "CT23A103",
+        password: "Mikemike"
       });
 
     expect(response.statusCode).toBe(200);
